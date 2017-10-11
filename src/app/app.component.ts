@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Structural Directive';
+  show = false;
+
+  movies=['Gaurdian Of Galaxy', 'X Men', 'Avenger'];
+  showName() {
+    this.show = true;
+  }
 }
